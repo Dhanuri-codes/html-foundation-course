@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="zcgpFd-L1iFao8TLNCpyKN2IGoMNBXdjHQqj5K3WsRg" />
+<title>HTML Foundation Course — Free Beginner to Pro Tutorial | Dhanuri Codes</title>
+<meta name="description" content="Master HTML from scratch with Dhanuri Codes' free HTML Foundation Course. Step-by-step lessons on tags, page structure, headings, links, images, lists, forms, tables, semantic HTML and more — with live quizzes and a cheat sheet.">
+<meta name="keywords" content="HTML Foundation Course, Learn HTML, HTML Tutorial, HTML for Beginners, Web Development Course, HTML Tags, HTML5, Semantic HTML, Free HTML Course, Dhanuri Codes">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Dhanuri Codes">
+<link rel="canonical" href="https://dhanuri-codes.github.io/html-foundation-course/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="HTML Foundation Course — Free Beginner to Pro Tutorial | Dhanuri Codes">
+<meta property="og:description" content="Master HTML from scratch with step-by-step lessons, live quizzes, and a full cheat sheet. Free. No sign-up needed.">
+<meta property="og:url" content="https://dhanuri-codes.github.io/html-foundation-course/">
+<meta property="og:site_name" content="Dhanuri Codes">
+
+<!-- Schema.org Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "HTML Foundation Course",
+  "description": "A free, beginner-friendly HTML course covering tags, page structure, headings, links, images, lists, tables, forms, and semantic HTML.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Dhanuri Codes",
+    "url": "https://dhanuri-codes.github.io/html-foundation-course/"
+  },
+  "educationalLevel": "Beginner",
+  "courseMode": "online",
+  "isAccessibleForFree": true,
+  "inLanguage": "en"
+}
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════ NAV -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <div class="nav-brand">
+      <span class="nav-icon">&#60;/&#62;</span>
+      <span class="nav-name">Dhanuri Codes</span>
+    </div>
+    <div class="nav-links">
+      <a href="#lessons">Lessons</a>
+      <a href="#why-html">Why HTML</a>
+      <a href="#cheatsheet">Cheat Sheet</a>
+    </div>
+    <div class="nav-badge">Free Course</div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════ HERO -->
+<header class="hero" role="banner">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">
+      <span class="pill pill--green">&#10003; Free</span>
+      <span class="pill pill--white">Beginner Friendly</span>
+      <span class="pill pill--white">No Sign-up</span>
+    </div>
+    <h1 class="hero-h1">The <em>HTML Foundation</em><br>Course</h1>
+    <p class="hero-sub">Learn how to build real web pages from scratch — tags, structure, links, images, lists, tables, forms &amp; semantic HTML. One lesson at a time, with mini quizzes to lock in what you learn.</p>
+    <div class="hero-chips">
+      <div class="chip"><span class="chip-icon">&#128218;</span> 10 Lessons</div>
+      <div class="chip"><span class="chip-icon">&#129516;</span> 20+ Quizzes</div>
+      <div class="chip"><span class="chip-icon">&#128203;</span> Cheat Sheet</div>
+      <div class="chip"><span class="chip-icon">&#9989;</span> Track Progress</div>
+      <div class="chip"><span class="chip-icon">&#9889;</span> Live Previews</div>
+    </div>
+    <a href="#lessons" class="hero-cta">Start Learning &darr;</a>
+  </div>
+  <div class="hero-code-panel" aria-hidden="true">
+    <div class="code-window">
+      <div class="code-window-bar"><span></span><span></span><span></span><span class="code-window-title">index.html</span></div>
+      <div class="code-window-body">
+        <div class="cw-line"><span class="cw-tag">&lt;!DOCTYPE html&gt;</span></div>
+        <div class="cw-line"><span class="cw-tag">&lt;html</span> <span class="cw-attr">lang</span>=<span class="cw-val">"en"</span><span class="cw-tag">&gt;</span></div>
+        <div class="cw-line pl1"><span class="cw-tag">&lt;head&gt;</span></div>
+        <div class="cw-line pl2"><span class="cw-tag">&lt;title&gt;</span><span class="cw-txt">My First Page</span><span class="cw-tag">&lt;/title&gt;</span></div>
+        <div class="cw-line pl1"><span class="cw-tag">&lt;/head&gt;</span></div>
+        <div class="cw-line pl1"><span class="cw-tag">&lt;body&gt;</span></div>
+        <div class="cw-line pl2"><span class="cw-tag">&lt;h1&gt;</span><span class="cw-txt">Hello World!</span><span class="cw-tag">&lt;/h1&gt;</span></div>
+        <div class="cw-line pl2"><span class="cw-tag">&lt;p&gt;</span><span class="cw-txt">Welcome to HTML.</span><span class="cw-tag">&lt;/p&gt;</span></div>
+        <div class="cw-line pl1"><span class="cw-tag">&lt;/body&gt;</span></div>
+        <div class="cw-line"><span class="cw-tag">&lt;/html&gt;</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════ WHY HTML (SEO block) -->
+<section class="why-section" id="why-html" aria-labelledby="why-heading">
+  <div class="why-inner">
+    <div class="why-text">
+      <span class="section-label">Foundation Skills</span>
+      <h2 id="why-heading">Why Learn HTML First?</h2>
+      <p>HTML (HyperText Markup Language) is the skeleton of every website on the internet. Before you can style a page with CSS or add interaction with JavaScript, you need to know HTML. It is the language that defines what content exists on a page and what role each piece plays.</p>
+      <p>This free HTML Foundation Course by Dhanuri Codes covers every core concept — from the very first tag you will ever write to semantic elements that help search engines understand your content. All lessons include real code examples, live browser previews, and quiz questions to make sure the knowledge sticks.</p>
+    </div>
+    <div class="why-cards">
+      <div class="why-card">
+        <div class="why-card-icon">&#127760;</div>
+        <h3>Used on Every Website</h3>
+        <p>Every page on the internet — from Google to YouTube to simple blogs — is built on HTML. It is the universal language of the web.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card-icon">&#128640;</div>
+        <h3>Gateway to Web Dev</h3>
+        <p>HTML is always the first step. Once you master it, learning CSS and JavaScript becomes far easier and more logical.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card-icon">&#128269;</div>
+        <h3>Improves Your SEO</h3>
+        <p>Good HTML structure directly affects how search engines rank your pages. Semantic tags like &lt;article&gt; and &lt;nav&gt; tell Google what your content means.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card-icon">&#9881;</div>
+        <h3>Quick to Learn</h3>
+        <p>Unlike programming languages, HTML has no logic or algorithms. It is a set of descriptive tags — most people can build a real page within a few hours.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ STATS BAR -->
+<div class="stats-bar" role="region" aria-label="Course statistics">
+  <div class="stats-inner">
+    <div class="stat"><div class="stat-num">10</div><div class="stat-label">Lessons</div></div>
+    <div class="stat-divider"></div>
+    <div class="stat"><div class="stat-num">20+</div><div class="stat-label">Quiz Questions</div></div>
+    <div class="stat-divider"></div>
+    <div class="stat"><div class="stat-num">50+</div><div class="stat-label">Code Examples</div></div>
+    <div class="stat-divider"></div>
+    <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Free Forever</div></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ COURSE AREA -->
+<main class="course-wrap" id="lessons" role="main">
+  <div class="sidebar">
+    <div class="sidebar-sticky">
+      <div class="sb-head">Course Contents</div>
+      <nav class="sb-nav" aria-label="Lesson navigation">
+        <a class="sb-link active" href="#l1" onclick="jumpTo('l1')"><span class="sb-num" id="sn1">1</span>What is HTML?</a>
+        <a class="sb-link" href="#l2" onclick="jumpTo('l2')"><span class="sb-num" id="sn2">2</span>Tags &amp; Elements</a>
+        <a class="sb-link" href="#l3" onclick="jumpTo('l3')"><span class="sb-num" id="sn3">3</span>Page Structure</a>
+        <a class="sb-link" href="#l4" onclick="jumpTo('l4')"><span class="sb-num" id="sn4">4</span>Headings &amp; Paragraphs</a>
+        <a class="sb-link" href="#l5" onclick="jumpTo('l5')"><span class="sb-num" id="sn5">5</span>Links &amp; Images</a>
+        <a class="sb-link" href="#l6" onclick="jumpTo('l6')"><span class="sb-num" id="sn6">6</span>HTML Lists</a>
+        <a class="sb-link" href="#l7" onclick="jumpTo('l7')"><span class="sb-num" id="sn7">7</span>HTML Tables</a>
+        <a class="sb-link" href="#l8" onclick="jumpTo('l8')"><span class="sb-num" id="sn8">8</span>HTML Forms</a>
+        <a class="sb-link" href="#l9" onclick="jumpTo('l9')"><span class="sb-num" id="sn9">9</span>Semantic HTML</a>
+        <a class="sb-link" href="#l10" onclick="jumpTo('l10')"><span class="sb-num" id="sn10">10</span>Best Practices</a>
+      </nav>
+      <div class="sb-progress-wrap">
+        <div class="sb-progress-label">
+          <span>Progress</span><span id="sb-pct-text">0%</span>
+        </div>
+        <div class="sb-bar-outer"><div class="sb-bar-inner" id="sb-bar"></div></div>
+        <div class="sb-done-text" id="sb-done">0 / 10 lessons done</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lessons-col">
+
+    <!-- PROGRESS (mobile) -->
+    <div class="progress-wrap-mobile">
+      <div class="progress-top">
+        <span class="progress-label">&#128202; Your Progress</span>
+        <span class="progress-pct" id="pct-mobile">0 / 10 done</span>
+      </div>
+      <div class="bar-outer"><div class="bar-inner" id="bar-mobile"></div></div>
+    </div>
+
+    <!-- ─── LESSON 1 ─── -->
+    <article class="lesson open" id="l1" aria-labelledby="lt1">
+      <div class="lesson-header" onclick="toggle('l1')" role="button" aria-expanded="true" tabindex="0">
+        <div class="lesson-num" id="n1">1</div>
+        <div class="lesson-info">
+          <div class="lesson-title" id="lt1">What is HTML?</div>
+          <div class="lesson-sub">The language behind every webpage</div>
+        </div>
+        <div class="lesson-meta"><span class="lesson-time">5 min</span><span class="lesson-arrow">&#9654;</span></div>
+      </div>
+      <div class="lesson-body">
+        <p class="explain">
+          <strong>HTML</strong> stands for <strong>HyperText Markup Language</strong>. It is not a programming language — there is no logic, no loops, no calculations. It is a <em>markup language</em>, which means you use tags to label and describe the content on a page so the browser knows how to display it.
+        </p>
+        <p class="explain">
+          Think of a web page like a newspaper. Someone has to decide: "This text is a headline. This is the main story. This is a photo. This is a caption." HTML is the tool that makes those decisions. The browser reads your HTML and translates those labels into what users see.
+        </p>
+
+        <div class="concept-grid">
+          <div class="concept-card">
+            <div class="concept-icon">&#129560;</div>
+            <div class="concept-label">HTML</div>
+            <div class="concept-desc">Structure — what content exists and what it means</div>
+          </div>
+          <div class="concept-card">
+            <div class="concept-icon">&#127912;</div>
+            <div class="concept-label">CSS</div>
+            <div class="concept-desc">Style — colours, fonts, layout, spacing</div>
+          </div>
+          <div class="concept-card">
+            <div class="concept-icon">&#9889;</div>
+            <div class="concept-label">JavaScript</div>
+            <div class="concept-desc">Behaviour — clicks, animations, dynamic data</div>
+          </div>
+        </div>
+
+        <div class="remember-box">
+          <span class="box-icon">&#129504;</span>
+          <div><strong>Core rule:</strong> HTML = Structure. CSS = Style. JavaScript = Behaviour. You always write HTML first. Without it, CSS and JavaScript have nothing to work with.</div>
+        </div>
+
+        <h3 class="sub-heading">&#128338; A Brief History</h3>
+        <p class="explain">HTML was invented by <strong>Tim Berners-Lee</strong> in 1991 while he worked at CERN, the physics research centre in Switzerland. He wanted scientists to share documents across different computers easily. The very first webpage is still live at <strong>info.cern.ch</strong>. Today we use <strong>HTML5</strong>, the fifth and current major version, which added powerful new elements for video, audio, forms, and semantic structure.</p>
+
+        <div class="timeline">
+          <div class="tl-item"><div class="tl-year">1991</div><div class="tl-desc">HTML 1.0 — Tim Berners-Lee publishes the first version</div></div>
+          <div class="tl-item"><div class="tl-year">1995</div><div class="tl-desc">HTML 2.0 — first formal standard is published</div></div>
+          <div class="tl-item"><div class="tl-year">1997</div><div class="tl-desc">HTML 3.2 &amp; 4.0 — tables, scripts, stylesheets introduced</div></div>
+          <div class="tl-item"><div class="tl-year">2014</div><div class="tl-desc">HTML5 — video, audio, canvas, semantic tags, mobile-ready</div></div>
+          <div class="tl-item tl-item--now"><div class="tl-year">Now</div><div class="tl-desc">HTML5 is the living standard — maintained and updated continuously</div></div>
+        </div>
+
+        <div class="tip-box">
+          <span class="box-icon">&#128161;</span>
+          <div><strong>Fun fact:</strong> The very first website had no images, no CSS, and no JavaScript — just plain HTML text with links. And it still works in your browser today.</div>
+        </div>
+
+        <button class="done-btn" onclick="markDone('l1','n1','sn1',this)">&#10003; Mark as Done</button>
+      </div>
+    </article>
+
+    <!-- ─── LESSON 2 ─── -->
+    <article class="lesson" id="l2" aria-labelledby="lt2">
+      <div class="lesson-header" onclick="toggle('l2')" role="button" aria-expanded="false" tabindex="0">
+        <div class="lesson-num" id="n2">2</div>
+        <div class="lesson-info">
+          <div class="lesson-title" id="lt2">Tags &amp; Elements</div>
+          <div class="lesson-sub">The core building blocks of HTML</div>
+        </div>
+        <div class="lesson-meta"><span class="lesson-time">8 min</span><span class="lesson-arrow">&#9654;</span></div>
+      </div>
+      <div class="lesson-body">
+        <p class="explain">Everything in HTML is made of <strong>tags</strong>. A tag is a keyword written inside angle brackets. Most tags come in pairs: an <strong>opening tag</strong> that marks where something starts, and a <strong>closing tag</strong> (with a forward slash) that marks where it ends. Together they form an <strong>element</strong>.</p>
+
+        <div class="anatomy-box">
+          <div class="anatomy-line">
+            <span class="an-open">&lt;p&gt;</span><span class="an-content">This is a paragraph.</span><span class="an-close">&lt;/p&gt;</span>
+          </div>
+          <div class="anatomy-labels">
+            <span class="an-label an-label--open">Opening tag</span>
+            <span class="an-label an-label--content">Content</span>
+            <span class="an-label an-label--close">Closing tag</span>
+          </div>
+        </div>
+
+        <h3 class="sub-heading">&#128279; Self-Closing Tags</h3>
+        <p class="explain">Some tags insert content rather than wrapping it. They have no closing tag because there is nothing to wrap.</p>
+
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span><span class="code-filename">example.html</span></div>
+          <div class="code-body">
+            <span class="cmt">&lt;!-- Adds a line break --&gt;</span><br>
+            <span class="ct">&lt;br&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Draws a horizontal line --&gt;</span><br>
+            <span class="ct">&lt;hr&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Inserts an image --&gt;</span><br>
+            <span class="ct">&lt;img</span> <span class="ca">src</span>=<span class="cv">"photo.jpg"</span> <span class="ca">alt</span>=<span class="cv">"A photo"</span><span class="ct">&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Links a stylesheet --&gt;</span><br>
+            <span class="ct">&lt;link</span> <span class="ca">rel</span>=<span class="cv">"stylesheet"</span> <span class="ca">href</span>=<span class="cv">"style.css"</span><span class="ct">&gt;</span>
+          </div>
+        </div>
+
+        <h3 class="sub-heading">&#128203; Attributes</h3>
+        <p class="explain">Attributes are extra details you add inside an opening tag. They follow the format <code>name="value"</code> and always go after the tag name, separated by a space. You can have multiple attributes on one tag.</p>
+
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span><span class="code-filename">attributes.html</span></div>
+          <div class="code-body">
+            <span class="cmt">&lt;!-- One attribute --&gt;</span><br>
+            <span class="ct">&lt;p</span> <span class="ca">id</span>=<span class="cv">"intro"</span><span class="ct">&gt;</span>Welcome!<span class="ct">&lt;/p&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Multiple attributes --&gt;</span><br>
+            <span class="ct">&lt;a</span> <span class="ca">href</span>=<span class="cv">"https://example.com"</span> <span class="ca">target</span>=<span class="cv">"_blank"</span> <span class="ca">title</span>=<span class="cv">"Visit Example"</span><span class="ct">&gt;</span><br>
+            &nbsp;&nbsp;Click Here<br>
+            <span class="ct">&lt;/a&gt;</span>
+          </div>
+        </div>
+
+        <div class="attr-table-wrap">
+          <table>
+            <thead><tr><th>Attribute</th><th>Used On</th><th>What It Does</th></tr></thead>
+            <tbody>
+              <tr><td><code>id</code></td><td>Any element</td><td>Gives an element a unique name on the page</td></tr>
+              <tr><td><code>class</code></td><td>Any element</td><td>Groups elements for CSS or JavaScript targeting</td></tr>
+              <tr><td><code>href</code></td><td>&lt;a&gt;</td><td>Sets the destination URL of a link</td></tr>
+              <tr><td><code>src</code></td><td>&lt;img&gt;, &lt;script&gt;</td><td>Sets the file path or URL of the resource</td></tr>
+              <tr><td><code>alt</code></td><td>&lt;img&gt;</td><td>Alternative text if the image can't load</td></tr>
+              <tr><td><code>target</code></td><td>&lt;a&gt;</td><td>Controls where a link opens (_blank = new tab)</td></tr>
+              <tr><td><code>type</code></td><td>&lt;input&gt;, &lt;button&gt;</td><td>Specifies the kind of input or button</td></tr>
+              <tr><td><code>placeholder</code></td><td>&lt;input&gt;</td><td>Ghost text shown inside an empty input</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Which of these is a self-closing tag?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;p&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,true)">&lt;br&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;h1&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;div&gt;</button>
+          </div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Where do attributes go inside a tag?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">After the closing tag</button>
+            <button class="quiz-opt" onclick="answer(this,true)">Inside the opening tag</button>
+            <button class="quiz-opt" onclick="answer(this,false)">Between the tags</button>
+          </div>
+        </div>
+
+        <button class="done-btn" onclick="markDone('l2','n2','sn2',this)">&#10003; Mark as Done</button>
+      </div>
+    </article>
+
+    <!-- ─── LESSON 3 ─── -->
+    <article class="lesson" id="l3" aria-labelledby="lt3">
+      <div class="lesson-header" onclick="toggle('l3')" role="button" aria-expanded="false" tabindex="0">
+        <div class="lesson-num" id="n3">3</div>
+        <div class="lesson-info">
+          <div class="lesson-title" id="lt3">Page Structure</div>
+          <div class="lesson-sub">The boilerplate every HTML file starts with</div>
+        </div>
+        <div class="lesson-meta"><span class="lesson-time">7 min</span><span class="lesson-arrow">&#9654;</span></div>
+      </div>
+      <div class="lesson-body">
+        <p class="explain">Every HTML page — whether it is a simple blog post or a complex web app — follows the same basic skeleton. You write this structure once at the start of every file. Editors like VS Code can generate it automatically by typing <code>!</code> and pressing Tab.</p>
+
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span><span class="code-filename">index.html — the full boilerplate</span></div>
+          <div class="code-body">
+            <span class="cmt">&lt;!-- 1. Declare HTML5 --&gt;</span><br>
+            <span class="ct">&lt;!DOCTYPE html&gt;</span><br><br>
+            <span class="cmt">&lt;!-- 2. Root element; lang helps screen readers &amp; SEO --&gt;</span><br>
+            <span class="ct">&lt;html</span> <span class="ca">lang</span>=<span class="cv">"en"</span><span class="ct">&gt;</span><br><br>
+            <span class="ct">&lt;head&gt;</span><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- 3. Character encoding — always UTF-8 --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;meta</span> <span class="ca">charset</span>=<span class="cv">"UTF-8"</span><span class="ct">&gt;</span><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- 4. Makes the page mobile-responsive --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;meta</span> <span class="ca">name</span>=<span class="cv">"viewport"</span> <span class="ca">content</span>=<span class="cv">"width=device-width, initial-scale=1.0"</span><span class="ct">&gt;</span><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- 5. Page title — shows in browser tab &amp; search results --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;title&gt;</span>My Awesome Page<span class="ct">&lt;/title&gt;</span><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- 6. SEO description --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;meta</span> <span class="ca">name</span>=<span class="cv">"description"</span> <span class="ca">content</span>=<span class="cv">"A short page description for Google."</span><span class="ct">&gt;</span><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- 7. Link to CSS stylesheet --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;link</span> <span class="ca">rel</span>=<span class="cv">"stylesheet"</span> <span class="ca">href</span>=<span class="cv">"style.css"</span><span class="ct">&gt;</span><br>
+            <span class="ct">&lt;/head&gt;</span><br><br>
+            <span class="ct">&lt;body&gt;</span><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- All visible content goes here --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;h1&gt;</span>Hello, World!<span class="ct">&lt;/h1&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;p&gt;</span>This is my first webpage.<span class="ct">&lt;/p&gt;</span><br>
+            <span class="ct">&lt;/body&gt;</span><br><br>
+            <span class="ct">&lt;/html&gt;</span>
+          </div>
+        </div>
+
+        <div class="breakdown-grid">
+          <div class="bd-card"><code>&lt;!DOCTYPE html&gt;</code><p>Tells the browser to use HTML5. Without it, the browser enters "quirks mode" and renders incorrectly.</p></div>
+          <div class="bd-card"><code>&lt;html lang="en"&gt;</code><p>The root wrapper. <code>lang="en"</code> helps Google and screen readers know the page language.</p></div>
+          <div class="bd-card"><code>&lt;head&gt;</code><p>Contains invisible page settings: title, charset, meta tags, links to CSS/JS. Nothing here shows on screen.</p></div>
+          <div class="bd-card"><code>&lt;meta charset="UTF-8"&gt;</code><p>Ensures all characters (including ©, é, 中) display correctly. Always include this first inside &lt;head&gt;.</p></div>
+          <div class="bd-card"><code>&lt;meta name="viewport"&gt;</code><p>Makes your page scale properly on phones and tablets. Essential for mobile-responsive design.</p></div>
+          <div class="bd-card"><code>&lt;title&gt;</code><p>The text shown on the browser tab and in Google search results. Keep it descriptive and under 60 characters.</p></div>
+          <div class="bd-card"><code>&lt;body&gt;</code><p>Everything the user actually sees and interacts with goes here — headings, text, images, buttons, forms.</p></div>
+          <div class="bd-card"><code>&lt;/html&gt;</code><p>Closes the root element. This must be the very last line of every HTML file.</p></div>
+        </div>
+
+        <div class="remember-box">
+          <span class="box-icon">&#129504;</span>
+          <div><strong>Golden rule:</strong> Anything in <code>&lt;head&gt;</code> is invisible to the user. Anything in <code>&lt;body&gt;</code> is visible. Never mix them up.</div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Which tag makes a page mobile-friendly?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;mobile&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,true)">&lt;meta name="viewport"&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;responsive&gt;</button>
+          </div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Where does the page &lt;title&gt; appear?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">Top of the webpage body</button>
+            <button class="quiz-opt" onclick="answer(this,true)">Browser tab and search results</button>
+            <button class="quiz-opt" onclick="answer(this,false)">Inside a &lt;h1&gt; tag</button>
+          </div>
+        </div>
+
+        <button class="done-btn" onclick="markDone('l3','n3','sn3',this)">&#10003; Mark as Done</button>
+      </div>
+    </article>
+
+    <!-- ─── LESSON 4 ─── -->
+    <article class="lesson" id="l4" aria-labelledby="lt4">
+      <div class="lesson-header" onclick="toggle('l4')" role="button" aria-expanded="false" tabindex="0">
+        <div class="lesson-num" id="n4">4</div>
+        <div class="lesson-info">
+          <div class="lesson-title" id="lt4">Headings &amp; Paragraphs</div>
+          <div class="lesson-sub">Structuring text content the right way</div>
+        </div>
+        <div class="lesson-meta"><span class="lesson-time">8 min</span><span class="lesson-arrow">&#9654;</span></div>
+      </div>
+      <div class="lesson-body">
+        <p class="explain">Text is the backbone of most web pages. HTML gives you two primary tools for organising it: <strong>headings</strong> (which define hierarchy and importance) and <strong>paragraphs</strong> (which hold your body text). Used correctly, they also help search engines understand and rank your content.</p>
+
+        <h3 class="sub-heading">&#128200; Heading Hierarchy — h1 to h6</h3>
+        <p class="explain">There are six heading levels. Use them in order — <strong>never skip a level</strong>. An h1 is the main title of the page, h2 is a major section, h3 is a subsection of that, and so on. Think of it like a document outline.</p>
+
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span><span class="code-filename">headings.html</span></div>
+          <div class="code-body">
+            <span class="ct">&lt;h1&gt;</span>Main Page Title<span class="ct">&lt;/h1&gt;</span><br>
+            <span class="ct">&lt;h2&gt;</span>Chapter 1: Getting Started<span class="ct">&lt;/h2&gt;</span><br>
+            <span class="ct">&lt;h3&gt;</span>Section 1.1: Installation<span class="ct">&lt;/h3&gt;</span><br>
+            <span class="ct">&lt;h4&gt;</span>Step A: Download the file<span class="ct">&lt;/h4&gt;</span><br>
+            <span class="ct">&lt;h5&gt;</span>Tip for Windows users<span class="ct">&lt;/h5&gt;</span><br>
+            <span class="ct">&lt;h6&gt;</span>Advanced note<span class="ct">&lt;/h6&gt;</span>
+          </div>
+        </div>
+
+        <div class="preview-label">Browser Preview</div>
+        <div class="preview-box">
+          <p style="font-size:1.4rem;font-weight:800;margin:2px 0;color:#0f172a">Main Page Title</p>
+          <p style="font-size:1.15rem;font-weight:700;margin:2px 0;color:#1e293b">Chapter 1: Getting Started</p>
+          <p style="font-size:1rem;font-weight:700;margin:2px 0;color:#334155">Section 1.1: Installation</p>
+          <p style="font-size:0.9rem;font-weight:600;margin:2px 0;color:#475569">Step A: Download the file</p>
+          <p style="font-size:0.82rem;font-weight:600;margin:2px 0;color:#64748b">Tip for Windows users</p>
+          <p style="font-size:0.75rem;font-weight:600;margin:2px 0;color:#94a3b8">Advanced note</p>
+        </div>
+
+        <h3 class="sub-heading">&#128221; Paragraphs, Bold, Italic &amp; More</h3>
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span><span class="code-filename">text-formatting.html</span></div>
+          <div class="code-body">
+            <span class="ct">&lt;p&gt;</span>A standard paragraph of text goes here.<span class="ct">&lt;/p&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Bold (important) --&gt;</span><br>
+            <span class="ct">&lt;p&gt;</span>This word is <span class="ct">&lt;strong&gt;</span>very important<span class="ct">&lt;/strong&gt;</span>.<span class="ct">&lt;/p&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Italic (emphasis) --&gt;</span><br>
+            <span class="ct">&lt;p&gt;</span>This is <span class="ct">&lt;em&gt;</span>emphasised<span class="ct">&lt;/em&gt;</span> text.<span class="ct">&lt;/p&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Underline --&gt;</span><br>
+            <span class="ct">&lt;p&gt;</span>This is <span class="ct">&lt;u&gt;</span>underlined<span class="ct">&lt;/u&gt;</span>.<span class="ct">&lt;/p&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Inline code --&gt;</span><br>
+            <span class="ct">&lt;p&gt;</span>Use the <span class="ct">&lt;code&gt;</span>&lt;br&gt;<span class="ct">&lt;/code&gt;</span> tag for line breaks.<span class="ct">&lt;/p&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Line break inside a paragraph --&gt;</span><br>
+            <span class="ct">&lt;p&gt;</span>Line one.<span class="ct">&lt;br&gt;</span>Line two — same paragraph.<span class="ct">&lt;/p&gt;</span>
+          </div>
+        </div>
+
+        <div class="remember-box">
+          <span class="box-icon">&#129504;</span>
+          <div><strong>SEO tip:</strong> Every page should have exactly <strong>one &lt;h1&gt;</strong>. It tells search engines what the whole page is about. Using multiple h1 tags confuses Google and hurts your ranking.</div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">How many &lt;h1&gt; tags should a page have?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,true)">One</button>
+            <button class="quiz-opt" onclick="answer(this,false)">As many as needed</button>
+            <button class="quiz-opt" onclick="answer(this,false)">Zero</button>
+          </div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Which tag makes text visually and semantically important (bold)?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;b&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,true)">&lt;strong&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;em&gt;</button>
+          </div>
+        </div>
+
+        <button class="done-btn" onclick="markDone('l4','n4','sn4',this)">&#10003; Mark as Done</button>
+      </div>
+    </article>
+
+    <!-- ─── LESSON 5 ─── -->
+    <article class="lesson" id="l5" aria-labelledby="lt5">
+      <div class="lesson-header" onclick="toggle('l5')" role="button" aria-expanded="false" tabindex="0">
+        <div class="lesson-num" id="n5">5</div>
+        <div class="lesson-info">
+          <div class="lesson-title" id="lt5">Links &amp; Images</div>
+          <div class="lesson-sub">Connecting pages and displaying visuals</div>
+        </div>
+        <div class="lesson-meta"><span class="lesson-time">9 min</span><span class="lesson-arrow">&#9654;</span></div>
+      </div>
+      <div class="lesson-body">
+        <p class="explain">Links are what make the web a "web" — they connect pages together. Images make pages visually engaging. Both use straightforward tags with a few important attributes to master.</p>
+
+        <h3 class="sub-heading">&#128279; Anchor Tag — &lt;a&gt;</h3>
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span><span class="code-filename">links.html</span></div>
+          <div class="code-body">
+            <span class="cmt">&lt;!-- Internal link (same website) --&gt;</span><br>
+            <span class="ct">&lt;a</span> <span class="ca">href</span>=<span class="cv">"about.html"</span><span class="ct">&gt;</span>About Us<span class="ct">&lt;/a&gt;</span><br><br>
+            <span class="cmt">&lt;!-- External link (another site) — opens in new tab --&gt;</span><br>
+            <span class="ct">&lt;a</span> <span class="ca">href</span>=<span class="cv">"https://github.com"</span> <span class="ca">target</span>=<span class="cv">"_blank"</span> <span class="ca">rel</span>=<span class="cv">"noopener noreferrer"</span><span class="ct">&gt;</span>GitHub<span class="ct">&lt;/a&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Email link --&gt;</span><br>
+            <span class="ct">&lt;a</span> <span class="ca">href</span>=<span class="cv">"mailto:hello@example.com"</span><span class="ct">&gt;</span>Email Us<span class="ct">&lt;/a&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Jump to a section on the same page --&gt;</span><br>
+            <span class="ct">&lt;a</span> <span class="ca">href</span>=<span class="cv">"#contact"</span><span class="ct">&gt;</span>Go to Contact Section<span class="ct">&lt;/a&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Phone number link (mobile) --&gt;</span><br>
+            <span class="ct">&lt;a</span> <span class="ca">href</span>=<span class="cv">"tel:+94777123456"</span><span class="ct">&gt;</span>Call Us<span class="ct">&lt;/a&gt;</span>
+          </div>
+        </div>
+
+        <div class="tip-box">
+          <span class="box-icon">&#128161;</span>
+          <div><strong>Security tip:</strong> When using <code>target="_blank"</code>, always add <code>rel="noopener noreferrer"</code>. This prevents the new tab from accessing your page and is a web security best practice.</div>
+        </div>
+
+        <h3 class="sub-heading">&#128247; Image Tag — &lt;img&gt;</h3>
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span><span class="code-filename">images.html</span></div>
+          <div class="code-body">
+            <span class="cmt">&lt;!-- Local image file --&gt;</span><br>
+            <span class="ct">&lt;img</span> <span class="ca">src</span>=<span class="cv">"images/banner.jpg"</span> <span class="ca">alt</span>=<span class="cv">"A banner showing a mountain sunset"</span> <span class="ca">width</span>=<span class="cv">"800"</span> <span class="ca">height</span>=<span class="cv">"400"</span><span class="ct">&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Image from the internet --&gt;</span><br>
+            <span class="ct">&lt;img</span> <span class="ca">src</span>=<span class="cv">"https://example.com/photo.jpg"</span> <span class="ca">alt</span>=<span class="cv">"Description of the photo"</span><span class="ct">&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Clickable image (image inside a link) --&gt;</span><br>
+            <span class="ct">&lt;a</span> <span class="ca">href</span>=<span class="cv">"https://example.com"</span><span class="ct">&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;img</span> <span class="ca">src</span>=<span class="cv">"logo.png"</span> <span class="ca">alt</span>=<span class="cv">"Company Logo"</span><span class="ct">&gt;</span><br>
+            <span class="ct">&lt;/a&gt;</span>
+          </div>
+        </div>
+
+        <div class="remember-box">
+          <span class="box-icon">&#129504;</span>
+          <div><strong>Always include alt text!</strong> The <code>alt</code> attribute describes an image to screen readers (for blind users) and also appears if the image fails to load. Google also reads alt text to understand your images — it improves SEO.</div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Why should you add rel="noopener noreferrer" to external links?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">It makes links look better</button>
+            <button class="quiz-opt" onclick="answer(this,true)">It prevents security vulnerabilities in new tabs</button>
+            <button class="quiz-opt" onclick="answer(this,false)">It speeds up the link</button>
+          </div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">What does the alt attribute on an image do?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">Sets the image size</button>
+            <button class="quiz-opt" onclick="answer(this,true)">Describes the image for accessibility and SEO</button>
+            <button class="quiz-opt" onclick="answer(this,false)">Changes the image colour</button>
+          </div>
+        </div>
+
+        <button class="done-btn" onclick="markDone('l5','n5','sn5',this)">&#10003; Mark as Done</button>
+      </div>
+    </article>
+
+    <!-- ─── LESSON 6 ─── -->
+    <article class="lesson" id="l6" aria-labelledby="lt6">
+      <div class="lesson-header" onclick="toggle('l6')" role="button" aria-expanded="false" tabindex="0">
+        <div class="lesson-num" id="n6">6</div>
+        <div class="lesson-info">
+          <div class="lesson-title" id="lt6">HTML Lists</div>
+          <div class="lesson-sub">Bullet points, numbered steps, and descriptions</div>
+        </div>
+        <div class="lesson-meta"><span class="lesson-time">7 min</span><span class="lesson-arrow">&#9654;</span></div>
+      </div>
+      <div class="lesson-body">
+        <p class="explain">Lists are one of the most used HTML structures. Navigation menus, feature lists, step-by-step guides, ingredients, and site maps — they all use HTML lists under the hood.</p>
+
+        <h3 class="sub-heading">&#8226; Unordered List — &lt;ul&gt;</h3>
+        <p class="explain">Use when the order does not matter — like a shopping list or a list of features.</p>
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span></div>
+          <div class="code-body">
+            <span class="ct">&lt;ul&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>HTML — structure<span class="ct">&lt;/li&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>CSS — styling<span class="ct">&lt;/li&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>JavaScript — interaction<span class="ct">&lt;/li&gt;</span><br>
+            <span class="ct">&lt;/ul&gt;</span>
+          </div>
+        </div>
+        <div class="preview-label">Preview</div>
+        <div class="preview-box"><ul><li>HTML — structure</li><li>CSS — styling</li><li>JavaScript — interaction</li></ul></div>
+
+        <h3 class="sub-heading">1. Ordered List — &lt;ol&gt;</h3>
+        <p class="explain">Use when the order matters — like steps in a recipe or a tutorial.</p>
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span></div>
+          <div class="code-body">
+            <span class="cmt">&lt;!-- Default: 1, 2, 3 --&gt;</span><br>
+            <span class="ct">&lt;ol&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>Open VS Code<span class="ct">&lt;/li&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>Create index.html<span class="ct">&lt;/li&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>Write your HTML<span class="ct">&lt;/li&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>Open in browser<span class="ct">&lt;/li&gt;</span><br>
+            <span class="ct">&lt;/ol&gt;</span><br><br>
+            <span class="cmt">&lt;!-- Type A for letters; type i for roman numerals --&gt;</span><br>
+            <span class="ct">&lt;ol</span> <span class="ca">type</span>=<span class="cv">"A"</span><span class="ct">&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>First option<span class="ct">&lt;/li&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>Second option<span class="ct">&lt;/li&gt;</span><br>
+            <span class="ct">&lt;/ol&gt;</span>
+          </div>
+        </div>
+
+        <h3 class="sub-heading">&#128218; Nested Lists</h3>
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span></div>
+          <div class="code-body">
+            <span class="ct">&lt;ul&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>Frontend<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;ul&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>HTML<span class="ct">&lt;/li&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>CSS<span class="ct">&lt;/li&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;/ul&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;/li&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>Backend<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;ul&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>Python<span class="ct">&lt;/li&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;li&gt;</span>PHP<span class="ct">&lt;/li&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;/ul&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;/li&gt;</span><br>
+            <span class="ct">&lt;/ul&gt;</span>
+          </div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Which tag creates a numbered list?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;ul&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,true)">&lt;ol&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;dl&gt;</button>
+          </div>
+        </div>
+
+        <button class="done-btn" onclick="markDone('l6','n6','sn6',this)">&#10003; Mark as Done</button>
+      </div>
+    </article>
+
+    <!-- ─── LESSON 7 ─── -->
+    <article class="lesson" id="l7" aria-labelledby="lt7">
+      <div class="lesson-header" onclick="toggle('l7')" role="button" aria-expanded="false" tabindex="0">
+        <div class="lesson-num" id="n7">7</div>
+        <div class="lesson-info">
+          <div class="lesson-title" id="lt7">HTML Tables</div>
+          <div class="lesson-sub">Displaying data in rows and columns</div>
+        </div>
+        <div class="lesson-meta"><span class="lesson-time">9 min</span><span class="lesson-arrow">&#9654;</span></div>
+      </div>
+      <div class="lesson-body">
+        <p class="explain">HTML tables are used to display data that belongs in a grid — price lists, schedules, comparison charts, results tables, and spreadsheet-style information. Tables are made of rows, and rows are made of cells.</p>
+
+        <h3 class="sub-heading">&#128200; Basic Table Structure</h3>
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span><span class="code-filename">table.html</span></div>
+          <div class="code-body">
+            <span class="ct">&lt;table&gt;</span><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- Table head --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;thead&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;tr&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;th&gt;</span>Language<span class="ct">&lt;/th&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;th&gt;</span>Used For<span class="ct">&lt;/th&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;th&gt;</span>Difficulty<span class="ct">&lt;/th&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;/tr&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;/thead&gt;</span><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- Table body --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;tbody&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;tr&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;td&gt;</span>HTML<span class="ct">&lt;/td&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;td&gt;</span>Web structure<span class="ct">&lt;/td&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;td&gt;</span>Easy<span class="ct">&lt;/td&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;/tr&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;tr&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;td&gt;</span>CSS<span class="ct">&lt;/td&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;td&gt;</span>Web styling<span class="ct">&lt;/td&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;td&gt;</span>Medium<span class="ct">&lt;/td&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;/tr&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;/tbody&gt;</span><br>
+            <span class="ct">&lt;/table&gt;</span>
+          </div>
+        </div>
+
+        <div class="preview-label">Preview</div>
+        <div class="preview-box">
+          <table>
+            <thead><tr><th>Language</th><th>Used For</th><th>Difficulty</th></tr></thead>
+            <tbody>
+              <tr><td>HTML</td><td>Web structure</td><td>Easy</td></tr>
+              <tr><td>CSS</td><td>Web styling</td><td>Medium</td></tr>
+              <tr><td>JavaScript</td><td>Web interactivity</td><td>Medium</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="sub-heading">&#128203; Merging Cells — colspan &amp; rowspan</h3>
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span></div>
+          <div class="code-body">
+            <span class="cmt">&lt;!-- colspan: cell spans 2 columns --&gt;</span><br>
+            <span class="ct">&lt;td</span> <span class="ca">colspan</span>=<span class="cv">"2"</span><span class="ct">&gt;</span>Merged cell<span class="ct">&lt;/td&gt;</span><br><br>
+            <span class="cmt">&lt;!-- rowspan: cell spans 3 rows --&gt;</span><br>
+            <span class="ct">&lt;td</span> <span class="ca">rowspan</span>=<span class="cv">"3"</span><span class="ct">&gt;</span>Tall cell<span class="ct">&lt;/td&gt;</span>
+          </div>
+        </div>
+
+        <div class="remember-box">
+          <span class="box-icon">&#129504;</span>
+          <div><strong>Important:</strong> Use tables only for <em>tabular data</em> (grids of information). Do not use tables to create page layout — that is what CSS Flexbox and Grid are for.</div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Which tag creates a table header cell?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;td&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,true)">&lt;th&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;tr&gt;</button>
+          </div>
+        </div>
+
+        <button class="done-btn" onclick="markDone('l7','n7','sn7',this)">&#10003; Mark as Done</button>
+      </div>
+    </article>
+
+    <!-- ─── LESSON 8 ─── -->
+    <article class="lesson" id="l8" aria-labelledby="lt8">
+      <div class="lesson-header" onclick="toggle('l8')" role="button" aria-expanded="false" tabindex="0">
+        <div class="lesson-num" id="n8">8</div>
+        <div class="lesson-info">
+          <div class="lesson-title" id="lt8">HTML Forms</div>
+          <div class="lesson-sub">Collecting input from users</div>
+        </div>
+        <div class="lesson-meta"><span class="lesson-time">10 min</span><span class="lesson-arrow">&#9654;</span></div>
+      </div>
+      <div class="lesson-body">
+        <p class="explain">Forms are how users interact with websites — login pages, search bars, contact forms, sign-up sheets, and checkouts are all built with HTML forms. Every form sends data somewhere when submitted.</p>
+
+        <h3 class="sub-heading">&#128221; Basic Form Structure</h3>
+        <div class="code-block">
+          <div class="code-header"><span class="code-dots"><span></span><span></span><span></span></span><span class="code-filename">form.html</span></div>
+          <div class="code-body">
+            <span class="ct">&lt;form</span> <span class="ca">action</span>=<span class="cv">"/submit"</span> <span class="ca">method</span>=<span class="cv">"post"</span><span class="ct">&gt;</span><br><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- Text input --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;label</span> <span class="ca">for</span>=<span class="cv">"name"</span><span class="ct">&gt;</span>Full Name<span class="ct">&lt;/label&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;input</span> <span class="ca">type</span>=<span class="cv">"text"</span> <span class="ca">id</span>=<span class="cv">"name"</span> <span class="ca">name</span>=<span class="cv">"name"</span> <span class="ca">placeholder</span>=<span class="cv">"Enter your name"</span> <span class="ca">required</span><span class="ct">&gt;</span><br><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- Email input --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;label</span> <span class="ca">for</span>=<span class="cv">"email"</span><span class="ct">&gt;</span>Email<span class="ct">&lt;/label&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;input</span> <span class="ca">type</span>=<span class="cv">"email"</span> <span class="ca">id</span>=<span class="cv">"email"</span> <span class="ca">name</span>=<span class="cv">"email"</span> <span class="ca">required</span><span class="ct">&gt;</span><br><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- Dropdown --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;label</span> <span class="ca">for</span>=<span class="cv">"level"</span><span class="ct">&gt;</span>Your Level<span class="ct">&lt;/label&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;select</span> <span class="ca">id</span>=<span class="cv">"level"</span> <span class="ca">name</span>=<span class="cv">"level"</span><span class="ct">&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;option</span> <span class="ca">value</span>=<span class="cv">"beginner"</span><span class="ct">&gt;</span>Beginner<span class="ct">&lt;/option&gt;</span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="ct">&lt;option</span> <span class="ca">value</span>=<span class="cv">"advanced"</span><span class="ct">&gt;</span>Advanced<span class="ct">&lt;/option&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;/select&gt;</span><br><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- Textarea --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;label</span> <span class="ca">for</span>=<span class="cv">"msg"</span><span class="ct">&gt;</span>Message<span class="ct">&lt;/label&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;textarea</span> <span class="ca">id</span>=<span class="cv">"msg"</span> <span class="ca">name</span>=<span class="cv">"msg"</span> <span class="ca">rows</span>=<span class="cv">"4"</span><span class="ct">&gt;&lt;/textarea&gt;</span><br><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- Checkbox --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;input</span> <span class="ca">type</span>=<span class="cv">"checkbox"</span> <span class="ca">id</span>=<span class="cv">"agree"</span> <span class="ca">name</span>=<span class="cv">"agree"</span><span class="ct">&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;label</span> <span class="ca">for</span>=<span class="cv">"agree"</span><span class="ct">&gt;</span>I agree to the terms<span class="ct">&lt;/label&gt;</span><br><br>
+            &nbsp;&nbsp;<span class="cmt">&lt;!-- Submit button --&gt;</span><br>
+            &nbsp;&nbsp;<span class="ct">&lt;button</span> <span class="ca">type</span>=<span class="cv">"submit"</span><span class="ct">&gt;</span>Send Message<span class="ct">&lt;/button&gt;</span><br><br>
+            <span class="ct">&lt;/form&gt;</span>
+          </div>
+        </div>
+
+        <h3 class="sub-heading">&#128203; All Input Types</h3>
+        <div class="attr-table-wrap">
+          <table>
+            <thead><tr><th>type="..."</th><th>What it shows</th><th>Use case</th></tr></thead>
+            <tbody>
+              <tr><td>text</td><td>Single-line text box</td><td>Name, username</td></tr>
+              <tr><td>email</td><td>Text box with email validation</td><td>Email addresses</td></tr>
+              <tr><td>password</td><td>Text box — hides characters</td><td>Passwords</td></tr>
+              <tr><td>number</td><td>Number spinner</td><td>Age, quantity</td></tr>
+              <tr><td>date</td><td>Date picker</td><td>Birthdate, booking</td></tr>
+              <tr><td>checkbox</td><td>Tick box</td><td>Agree to terms, multi-select</td></tr>
+              <tr><td>radio</td><td>Radio button</td><td>Choose one from a group</td></tr>
+              <tr><td>file</td><td>File upload button</td><td>Profile photo, attachments</td></tr>
+              <tr><td>range</td><td>Slider</td><td>Volume, rating</td></tr>
+              <tr><td>submit</td><td>Submit button</td><td>Send form data</td></tr>
+              <tr><td>reset</td><td>Reset button</td><td>Clear all inputs</td></tr>
+              <tr><td>hidden</td><td>Invisible field</td><td>Pass data silently to server</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Which attribute prevents a form from submitting unless the field is filled?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">placeholder</button>
+            <button class="quiz-opt" onclick="answer(this,true)">required</button>
+            <button class="quiz-opt" onclick="answer(this,false)">disabled</button>
+          </div>
+        </div>
+
+        <button class="done-btn" onclick="markDone('l8','n8','sn8',this)">&#10003; Mark as Done</button>
+      </div>
+    </article>
+
+    <!-- ─── LESSON 9 ─── -->
+    <article class="lesson" id="l9" aria-labelledby="lt9">
+      <div class="lesson-header" onclick="toggle('l9')" role="button" aria-expanded="false" tabindex="0">
+        <div class="lesson-num" id="n9">9</div>
+        <div class="lesson-info">
+          <div class="lesson-title" id="lt9">Semantic HTML</div>
+          <div class="lesson-sub">Writing HTML that means something</div>
+        </div>
+        <div class="lesson-meta"><span class="lesson-time">10 min</span><span class="lesson-arrow">&#9654;</span></div>
+      </div>
+      <div class="lesson-body">
+        <p class="explain">Semantic HTML is one of the most important concepts in modern web development. It means using HTML tags that <strong>describe the meaning</strong> of the content they wrap — not just how it should look. Instead of using a generic <code>&lt;div&gt;</code> for everything, semantic HTML tells the browser and search engines <em>exactly</em> what role each block plays.</p>
+
+        <h3 class="sub-heading">&#128259; div vs Semantic Tags</h3>
+        <div class="two-col-code">
+          <div>
+            <div class="bad-label">&#10008; Non-semantic (confusing)</div>
+            <div class="code-block">
+              <div class="code-body">
+                <span class="ct">&lt;div</span> <span class="ca">class</span>=<span class="cv">"header"</span><span class="ct">&gt;</span>...<span class="ct">&lt;/div&gt;</span><br>
+                <span class="ct">&lt;div</span> <span class="ca">class</span>=<span class="cv">"nav"</span><span class="ct">&gt;</span>...<span class="ct">&lt;/div&gt;</span><br>
+                <span class="ct">&lt;div</span> <span class="ca">class</span>=<span class="cv">"main"</span><span class="ct">&gt;</span>...<span class="ct">&lt;/div&gt;</span><br>
+                <span class="ct">&lt;div</span> <span class="ca">class</span>=<span class="cv">"sidebar"</span><span class="ct">&gt;</span>...<span class="ct">&lt;/div&gt;</span><br>
+                <span class="ct">&lt;div</span> <span class="ca">class</span>=<span class="cv">"footer"</span><span class="ct">&gt;</span>...<span class="ct">&lt;/div&gt;</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="good-label">&#10004; Semantic (clear meaning)</div>
+            <div class="code-block">
+              <div class="code-body">
+                <span class="ct">&lt;header&gt;</span>...<span class="ct">&lt;/header&gt;</span><br>
+                <span class="ct">&lt;nav&gt;</span>...<span class="ct">&lt;/nav&gt;</span><br>
+                <span class="ct">&lt;main&gt;</span>...<span class="ct">&lt;/main&gt;</span><br>
+                <span class="ct">&lt;aside&gt;</span>...<span class="ct">&lt;/aside&gt;</span><br>
+                <span class="ct">&lt;footer&gt;</span>...<span class="ct">&lt;/footer&gt;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="sub-heading">&#128203; Key Semantic Elements</h3>
+        <div class="attr-table-wrap">
+          <table>
+            <thead><tr><th>Tag</th><th>Meaning</th><th>Use it for</th></tr></thead>
+            <tbody>
+              <tr><td><code>&lt;header&gt;</code></td><td>Page or section header</td><td>Logo, site name, top navigation</td></tr>
+              <tr><td><code>&lt;nav&gt;</code></td><td>Navigation</td><td>Main menu, breadcrumbs, pagination</td></tr>
+              <tr><td><code>&lt;main&gt;</code></td><td>Main content</td><td>The primary content of the page — only one per page</td></tr>
+              <tr><td><code>&lt;article&gt;</code></td><td>Self-contained content</td><td>Blog posts, news articles, forum posts</td></tr>
+              <tr><td><code>&lt;section&gt;</code></td><td>Thematic group</td><td>Chapters, tabs, named areas within a page</td></tr>
+              <tr><td><code>&lt;aside&gt;</code></td><td>Sidebar content</td><td>Related links, ads, author bio</td></tr>
+              <tr><td><code>&lt;footer&gt;</code></td><td>Page or section footer</td><td>Copyright, contact links, social icons</td></tr>
+              <tr><td><code>&lt;figure&gt;</code></td><td>Media with caption</td><td>Image + caption, diagram, code with explanation</td></tr>
+              <tr><td><code>&lt;figcaption&gt;</code></td><td>Caption for a figure</td><td>Text beneath a figure element</td></tr>
+              <tr><td><code>&lt;time&gt;</code></td><td>Date or time</td><td>Published dates, event times</td></tr>
+              <tr><td><code>&lt;mark&gt;</code></td><td>Highlighted text</td><td>Search results, key terms</td></tr>
+              <tr><td><code>&lt;address&gt;</code></td><td>Contact information</td><td>Email, phone, physical address in a footer</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="remember-box">
+          <span class="box-icon">&#129504;</span>
+          <div><strong>Why it matters for SEO:</strong> Google uses semantic tags to understand the structure and importance of content. A page with proper semantic HTML ranks higher than the same page built with only &lt;div&gt; tags, because Google can identify your headings, navigation, main article, and footer automatically.</div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Which tag should wrap your website's main navigation menu?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;div class="nav"&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,true)">&lt;nav&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;menu&gt;</button>
+          </div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Which tag wraps a self-contained piece of content like a blog post?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;section&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,false)">&lt;div&gt;</button>
+            <button class="quiz-opt" onclick="answer(this,true)">&lt;article&gt;</button>
+          </div>
+        </div>
+
+        <button class="done-btn" onclick="markDone('l9','n9','sn9',this)">&#10003; Mark as Done</button>
+      </div>
+    </article>
+
+    <!-- ─── LESSON 10 ─── -->
+    <article class="lesson" id="l10" aria-labelledby="lt10">
+      <div class="lesson-header" onclick="toggle('l10')" role="button" aria-expanded="false" tabindex="0">
+        <div class="lesson-num" id="n10">10</div>
+        <div class="lesson-info">
+          <div class="lesson-title" id="lt10">HTML Best Practices</div>
+          <div class="lesson-sub">Writing clean, accessible, and SEO-ready code</div>
+        </div>
+        <div class="lesson-meta"><span class="lesson-time">8 min</span><span class="lesson-arrow">&#9654;</span></div>
+      </div>
+      <div class="lesson-body">
+        <p class="explain">Knowing the tags is only half the job. Writing HTML that is clean, accessible, maintainable, and optimised for search engines is what separates beginners from professional developers. Here are the rules that matter most.</p>
+
+        <h3 class="sub-heading">&#9989; The Golden Rules</h3>
+
+        <div class="rules-list">
+          <div class="rule-item">
+            <div class="rule-num">01</div>
+            <div class="rule-content">
+              <strong>Always close your tags</strong>
+              <p>Forgetting to close a tag causes the browser to guess where it ends. This breaks layout in unpredictable ways.</p>
+              <div class="code-block"><div class="code-body"><span class="cmt">&lt;!-- Wrong --&gt;</span><br><span class="ct">&lt;p&gt;</span>This paragraph never ends<br><br><span class="cmt">&lt;!-- Correct --&gt;</span><br><span class="ct">&lt;p&gt;</span>This paragraph is properly closed.<span class="ct">&lt;/p&gt;</span></div></div>
+            </div>
+          </div>
+
+          <div class="rule-item">
+            <div class="rule-num">02</div>
+            <div class="rule-content">
+              <strong>Use lowercase for all tags and attributes</strong>
+              <p>HTML5 is case-insensitive but industry convention is always lowercase. Mixed case looks unprofessional and causes bugs in some tools.</p>
+              <div class="code-block"><div class="code-body"><span class="cmt">&lt;!-- Wrong --&gt;</span><br><span class="ct">&lt;IMG</span> <span class="ca">SRC</span>=<span class="cv">"photo.jpg"</span><span class="ct">&gt;</span><br><br><span class="cmt">&lt;!-- Correct --&gt;</span><br><span class="ct">&lt;img</span> <span class="ca">src</span>=<span class="cv">"photo.jpg"</span> <span class="ca">alt</span>=<span class="cv">"Description"</span><span class="ct">&gt;</span></div></div>
+            </div>
+          </div>
+
+          <div class="rule-item">
+            <div class="rule-num">03</div>
+            <div class="rule-content">
+              <strong>Always quote attribute values</strong>
+              <p>While some attributes work without quotes in HTML5, always use them. It prevents ambiguity and is required in XML-based documents.</p>
+              <div class="code-block"><div class="code-body"><span class="cmt">&lt;!-- Risky --&gt;</span><br><span class="ct">&lt;p</span> <span class="ca">class</span>=<span class="cv">intro</span><span class="ct">&gt;</span><br><br><span class="cmt">&lt;!-- Safe --&gt;</span><br><span class="ct">&lt;p</span> <span class="ca">class</span>=<span class="cv">"intro"</span><span class="ct">&gt;</span></div></div>
+            </div>
+          </div>
+
+          <div class="rule-item">
+            <div class="rule-num">04</div>
+            <div class="rule-content">
+              <strong>Indent nested elements</strong>
+              <p>Proper indentation (2 or 4 spaces) makes code readable. Anyone maintaining your code — including future you — will thank you.</p>
+            </div>
+          </div>
+
+          <div class="rule-item">
+            <div class="rule-num">05</div>
+            <div class="rule-content">
+              <strong>Write descriptive alt text for every image</strong>
+              <p>Not just "image" or "photo" — describe what is actually in the image. This serves blind users and helps Google index your images.</p>
+            </div>
+          </div>
+
+          <div class="rule-item">
+            <div class="rule-num">06</div>
+            <div class="rule-content">
+              <strong>Use semantic tags, not only divs</strong>
+              <p>Replace <code>&lt;div class="header"&gt;</code> with <code>&lt;header&gt;</code>. Replace <code>&lt;div class="nav"&gt;</code> with <code>&lt;nav&gt;</code>. This improves both SEO and accessibility.</p>
+            </div>
+          </div>
+
+          <div class="rule-item">
+            <div class="rule-num">07</div>
+            <div class="rule-content">
+              <strong>Always add the viewport meta tag</strong>
+              <p>Without it, your page will look zoomed out on mobile devices. Google also uses mobile-friendliness as a ranking signal.</p>
+            </div>
+          </div>
+
+          <div class="rule-item">
+            <div class="rule-num">08</div>
+            <div class="rule-content">
+              <strong>One &lt;h1&gt; per page, used meaningfully</strong>
+              <p>Your h1 should contain the primary keyword for the page. It is the single most important piece of on-page SEO in your HTML.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-box">
+          <div class="quiz-label">&#129516; Quick Check</div>
+          <div class="quiz-q">Why is proper indentation important in HTML?</div>
+          <div class="quiz-opts">
+            <button class="quiz-opt" onclick="answer(this,false)">The browser requires it</button>
+            <button class="quiz-opt" onclick="answer(this,true)">It makes code readable and maintainable</button>
+            <button class="quiz-opt" onclick="answer(this,false)">It speeds up page loading</button>
+          </div>
+        </div>
+
+        <div class="celebrate-box">
+          <div class="celebrate-icon">&#127881;</div>
+          <h3>You have completed all 10 lessons!</h3>
+          <p>You now know the foundations of HTML — from your very first tag to semantic structure, forms, tables, and professional best practices. Next step: learn CSS to make your pages look great!</p>
+        </div>
+
+        <button class="done-btn" onclick="markDone('l10','n10','sn10',this)">&#10003; Mark as Done</button>
+      </div>
+    </article>
+
+  </div><!-- /lessons-col -->
+</main>
+
+<!-- ═══════════════════════════════════════════ CHEAT SHEET -->
+<section class="cheat-section" id="cheatsheet" aria-labelledby="cheat-heading">
+  <div class="cheat-inner">
+    <div class="cheat-header">
+      <span class="section-label">Reference Guide</span>
+      <h2 id="cheat-heading">&#128203; HTML Cheat Sheet</h2>
+      <p>Every tag covered in this course, in one place. Bookmark this page and come back whenever you need a quick reference.</p>
+    </div>
+
+    <div class="cheat-category">
+      <div class="cheat-cat-label">Document Structure</div>
+      <div class="cheat-grid">
+        <div class="cheat-card"><div class="cheat-tag">&lt;!DOCTYPE html&gt;</div><div class="cheat-desc">Declares the document as HTML5. Always the very first line.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;html lang="en"&gt;</div><div class="cheat-desc">Root wrapper. lang attribute aids screen readers and SEO.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;head&gt;</div><div class="cheat-desc">Container for invisible settings: title, charset, CSS links.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;body&gt;</div><div class="cheat-desc">Everything visible to the user lives here.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;title&gt;</div><div class="cheat-desc">Page title shown in the browser tab and Google results.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;meta charset="UTF-8"&gt;</div><div class="cheat-desc">Ensures all characters display correctly. Always first in &lt;head&gt;.</div></div>
+      </div>
+    </div>
+
+    <div class="cheat-category">
+      <div class="cheat-cat-label">Text &amp; Headings</div>
+      <div class="cheat-grid">
+        <div class="cheat-card"><div class="cheat-tag">&lt;h1&gt; – &lt;h6&gt;</div><div class="cheat-desc">Headings. h1 is the most important. Use only one h1 per page.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;p&gt;</div><div class="cheat-desc">A paragraph of text. Gets automatic spacing above and below.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;strong&gt;</div><div class="cheat-desc">Bold + important. Signals importance to browsers and Google.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;em&gt;</div><div class="cheat-desc">Italic + emphasis. Signals stressed emphasis to screen readers.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;br&gt;</div><div class="cheat-desc">Line break inside a paragraph. Self-closing — no closing tag.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;hr&gt;</div><div class="cheat-desc">Horizontal dividing line. Thematic break between sections.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;code&gt;</div><div class="cheat-desc">Inline code — monospace font, used for variable names or commands.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;blockquote&gt;</div><div class="cheat-desc">An extended quotation from another source, indented by default.</div></div>
+      </div>
+    </div>
+
+    <div class="cheat-category">
+      <div class="cheat-cat-label">Links &amp; Media</div>
+      <div class="cheat-grid">
+        <div class="cheat-card"><div class="cheat-tag">&lt;a href="..."&gt;</div><div class="cheat-desc">Anchor tag — creates a clickable hyperlink.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;img src="..." alt="..."&gt;</div><div class="cheat-desc">Embeds an image. Always include descriptive alt text.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;video&gt;</div><div class="cheat-desc">Embeds a video file with native browser controls.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;audio&gt;</div><div class="cheat-desc">Embeds an audio file with native browser controls.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;figure&gt;</div><div class="cheat-desc">Groups media (image, video) with its caption.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;figcaption&gt;</div><div class="cheat-desc">The caption text for a &lt;figure&gt; element.</div></div>
+      </div>
+    </div>
+
+    <div class="cheat-category">
+      <div class="cheat-cat-label">Lists</div>
+      <div class="cheat-grid">
+        <div class="cheat-card"><div class="cheat-tag">&lt;ul&gt;</div><div class="cheat-desc">Unordered list — bullet points. Order doesn't matter.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;ol&gt;</div><div class="cheat-desc">Ordered list — numbered. Order matters (steps, rankings).</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;li&gt;</div><div class="cheat-desc">A single list item inside &lt;ul&gt; or &lt;ol&gt;.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;dl&gt; &lt;dt&gt; &lt;dd&gt;</div><div class="cheat-desc">Description list — term + definition pairs. Used for glossaries.</div></div>
+      </div>
+    </div>
+
+    <div class="cheat-category">
+      <div class="cheat-cat-label">Semantic Layout</div>
+      <div class="cheat-grid">
+        <div class="cheat-card"><div class="cheat-tag">&lt;header&gt;</div><div class="cheat-desc">Page or section header — logo, site name, top nav.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;nav&gt;</div><div class="cheat-desc">Navigation links — main menu, breadcrumbs.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;main&gt;</div><div class="cheat-desc">Primary content. Use only once per page.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;article&gt;</div><div class="cheat-desc">Self-contained content — blog post, news item, forum post.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;section&gt;</div><div class="cheat-desc">Thematic grouping within a page — chapters, named areas.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;aside&gt;</div><div class="cheat-desc">Sidebar content — related links, ads, author bio.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;footer&gt;</div><div class="cheat-desc">Page or section footer — copyright, links, contact.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;div&gt;</div><div class="cheat-desc">Generic block container — use when no semantic tag fits.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;span&gt;</div><div class="cheat-desc">Generic inline container — for styling a word or phrase.</div></div>
+      </div>
+    </div>
+
+    <div class="cheat-category">
+      <div class="cheat-cat-label">Forms</div>
+      <div class="cheat-grid">
+        <div class="cheat-card"><div class="cheat-tag">&lt;form&gt;</div><div class="cheat-desc">Wraps all form elements. Has action and method attributes.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;input&gt;</div><div class="cheat-desc">Interactive input field. type attribute sets what kind.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;label&gt;</div><div class="cheat-desc">Clickable label for an input. Always link with for="id".</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;textarea&gt;</div><div class="cheat-desc">Multi-line text input area for long messages.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;select&gt; &lt;option&gt;</div><div class="cheat-desc">Dropdown menu — &lt;select&gt; wraps &lt;option&gt; items.</div></div>
+        <div class="cheat-card"><div class="cheat-tag">&lt;button&gt;</div><div class="cheat-desc">Clickable button. type="submit" sends the form.</div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ NEXT STEPS -->
+<section class="next-section" aria-labelledby="next-heading">
+  <div class="next-inner">
+    <span class="section-label">What's Next?</span>
+    <h2 id="next-heading">You Know HTML — Now What?</h2>
+    <p>HTML gives your page structure. The next two technologies bring it to life.</p>
+    <div class="next-cards">
+      <div class="next-card next-card--css">
+        <div class="next-card-icon">&#127912;</div>
+        <h3>Learn CSS</h3>
+        <p>CSS controls how your HTML looks — colours, fonts, spacing, layouts, animations, and responsive design. It is the visual layer of every webpage.</p>
+        <div class="next-card-tag">Step 2</div>
+      </div>
+      <div class="next-card next-card--js">
+        <div class="next-card-icon">&#9889;</div>
+        <h3>Learn JavaScript</h3>
+        <p>JavaScript makes pages interactive — menus that open and close, forms that validate, data that loads without refreshing. It is the behaviour layer.</p>
+        <div class="next-card-tag">Step 3</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ FOOTER -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="nav-icon">&#60;/&#62;</span>
+      <span class="nav-name">Dhanuri Codes</span>
+      <p>Free, practical web development education — no sign-ups, no paywalls, no nonsense.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <div class="footer-col-title">Course</div>
+        <a href="#l1">Lesson 1 — What is HTML?</a>
+        <a href="#l2">Lesson 2 — Tags &amp; Elements</a>
+        <a href="#l3">Lesson 3 — Page Structure</a>
+        <a href="#l4">Lesson 4 — Headings &amp; Text</a>
+        <a href="#l5">Lesson 5 — Links &amp; Images</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">More Lessons</div>
+        <a href="#l6">Lesson 6 — Lists</a>
+        <a href="#l7">Lesson 7 — Tables</a>
+        <a href="#l8">Lesson 8 — Forms</a>
+        <a href="#l9">Lesson 9 — Semantic HTML</a>
+        <a href="#l10">Lesson 10 — Best Practices</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&#169; 2026 Dhanuri Codes. All Rights Reserved. Built with pure HTML &amp; CSS.</p>
+  </div>
+</footer>
+
+<script>
+  /* ── TOGGLE LESSON ── */
+  function toggle(id) {
+    const el = document.getElementById(id);
+    const isOpen = el.classList.contains('open');
+    el.classList.toggle('open');
+    const header = el.querySelector('.lesson-header');
+    header.setAttribute('aria-expanded', !isOpen);
+  }
+
+  /* ── KEYBOARD SUPPORT ── */
+  document.querySelectorAll('.lesson-header').forEach(h => {
+    h.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); h.click(); }
+    });
+  });
+
+  /* ── JUMP TO LESSON ── */
+  function jumpTo(id) {
+    const el = document.getElementById(id);
+    if (!el.classList.contains('open')) el.classList.add('open');
+    setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+    document.querySelectorAll('.sb-link').forEach(l => l.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+    return false;
+  }
+
+  /* ── QUIZ ── */
+  function answer(btn, correct) {
+    const opts = btn.closest('.quiz-opts').querySelectorAll('.quiz-opt');
+    if (btn.disabled) return;
+    opts.forEach(o => o.disabled = true);
+    btn.classList.add(correct ? 'correct' : 'wrong');
+    if (!correct) {
+      opts.forEach(o => {
+        if (o.getAttribute('onclick') && o.getAttribute('onclick').includes('true')) {
+          o.classList.add('correct');
+        }
+      });
+    }
+  }
+
+  /* ── MARK DONE ── */
+  const done = new Set();
+  const total = 10;
+  const lessonOrder = ['l1','l2','l3','l4','l5','l6','l7','l8','l9','l10'];
+
+  function markDone(lessonId, numId, sbNumId, btn) {
+    if (done.has(lessonId)) return;
+    done.add(lessonId);
+
+    // Circle in lesson
+    const num = document.getElementById(numId);
+    num.classList.add('done');
+    num.textContent = '✓';
+
+    // Sidebar number
+    const sbNum = document.getElementById(sbNumId);
+    if (sbNum) { sbNum.classList.add('done'); sbNum.textContent = '✓'; }
+
+    btn.textContent = '✓ Lesson Completed!';
+    btn.classList.add('marked');
+    btn.disabled = true;
+
+    updateProgress();
+
+    // Auto-open next lesson
+    const idx = lessonOrder.indexOf(lessonId);
+    if (idx < lessonOrder.length - 1) {
+      const next = document.getElementById(lessonOrder[idx + 1]);
+      if (next && !next.classList.contains('open')) {
+        next.classList.add('open');
+        setTimeout(() => next.scrollIntoView({ behavior: 'smooth', block: 'start' }), 200);
+      }
+    }
+  }
+
+  function updateProgress() {
+    const count = done.size;
+    const pct = Math.round((count / total) * 100);
+
+    document.getElementById('bar-mobile').style.width = pct + '%';
+    document.getElementById('pct-mobile').textContent = count + ' / ' + total + ' done';
+
+    document.getElementById('sb-bar').style.width = pct + '%';
+    document.getElementById('sb-pct-text').textContent = pct + '%';
+    document.getElementById('sb-done').textContent = count + ' / ' + total + ' lessons done';
+  }
+
+  /* ── SCROLL SPY ── */
+  const sbLinks = document.querySelectorAll('.sb-link');
+  const lessonEls = lessonOrder.map(id => document.getElementById(id));
+  window.addEventListener('scroll', () => {
+    let current = 0;
+    lessonEls.forEach((el, i) => {
+      if (el && el.getBoundingClientRect().top < 200) current = i;
+    });
+    sbLinks.forEach(l => l.classList.remove('active'));
+    if (sbLinks[current]) sbLinks[current].classList.add('active');
+  }, { passive: true });
+</script>
+</body>
+</html>
