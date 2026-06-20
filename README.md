@@ -26,4 +26,36 @@ The goal of this project is to:
 
 ---
 
+## 🚀 Features
+- Simple and clean layout
+- Beginner-level HTML explanation
+- Organized sections for easy learning
+- Lightweight and fast loading
+
+---
+
+## 🎯 What I Learned
+- How to structure a webpage using HTML
+- How to organize content properly
+- Basics of web hosting using GitHub Pages
+
+---
+
+## 📈 Future Improvements
+- Add modern UI design (CSS styling)
+- Make it fully responsive for mobile devices
+- Add interactive elements using JavaScript
+- Improve visual design and branding
+
+---
+
+## 👨‍💻 Author
+**Dhanuri Codes**  
+🔗 GitHub: https://github.com/dhanuri-codes
+
+---
+
+## 📄 License
+This project is open-source and free to use for learning purposes.
+
 ## 📂 Project Structure
